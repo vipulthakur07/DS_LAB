@@ -6,12 +6,12 @@ int a[10][10],i,j,k,n,stk[10],top,v,visit[10],visited[10],x,y;
 
 main()
 {
-cout <<"enter no. of vertices SIR/MAM!";
+cout <<"enter no. of vertices";
 cin >> n;
-cout<<"sir please enter for undirected grah"<<endl;
+cout<<"please enter for undirected grah"<<endl;
      cin>>x>>y;
     if(x>=n&&y>=n)
-        cout<<"sir ji please enter within range"<<endl;
+        cout<<"please enter within range"<<endl;
         else
         {
     while(x!=-1&&y!=-1)
